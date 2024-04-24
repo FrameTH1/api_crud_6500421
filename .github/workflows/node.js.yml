@@ -26,5 +26,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm install mysql2 express dotenv cors
+    - run: npm install mysql2 express dotenv cors nodemon
     - run: npm start
